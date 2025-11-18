@@ -1,0 +1,16 @@
+sources:
+  my-alloydb-pg-source:
+    kind: alloydb-postgres
+    project: mtoscano-alloydbnl
+    region: us-central1
+    cluster: myalloydbcluster
+    instance: myalloydbpri
+    database: nl2sqldb
+    user: postgres
+    password: myalloydbpass
+tools:
+  ecommerce_data_query:
+    kind: alloydb-ai-nl
+    source: my-alloydb-pg-source
+    description: "Generate SQL queries to retrieve, aggregate, or filter data from the Products, Customers, and Sales tables. Use this tool for all inquiries regarding product information, pricing, customer purchasing history, and sales metrics (e.g., revenue, top-selling items)."
+    nlConfig: "nl_analysis_cfg"

@@ -1,0 +1,51 @@
+product_id,name,category,price,stock_quantity,avg_review_score
+1,"Wireless Mouse","Electronics",25.50,150,4.6
+2,"Noise-Canceling Headphones","Electronics",150.00,75,4.8
+3,"Cotton T-Shirt","Apparel",19.99,500,4.1
+4,"Running Shoes","Apparel",95.00,120,4.7
+5,"Sci-Fi Novel","Books",12.50,300,4.3
+6,"4K Smart TV","Electronics",499.99,50,4.7
+7,"Bluetooth Speaker","Electronics",79.99,200,4.5
+8,"Laptop","Electronics",899.00,40,4.6
+9,"Smartphone","Electronics",699.50,100,4.4
+10,"Gaming Console","Electronics",399.00,60,4.9
+11,"Denim Jeans","Apparel",59.95,300,4.3
+12,"Winter Jacket","Apparel",120.00,100,4.6
+13,"Leather Belt","Apparel",35.00,400,4.2
+14,"Wool Scarf","Apparel",22.50,250,4.5
+15,"Formal Shirt","Apparel",45.00,180,4.4
+16,"Fantasy Epic","Books",18.99,250,4.8
+17,"Cookbook","Books",29.99,150,4.6
+18,"Historical Biography","Books",24.50,100,4.7
+19,"Mystery Thriller","Books",14.99,400,4.2
+20,"Poetry Collection","Books",16.00,80,4.5
+21,"Coffee Maker","Home Goods",89.99,120,4.6
+22,"Blender","Home Goods",45.50,90,4.3
+23,"Set of Kitchen Knives","Home Goods",110.00,60,4.8
+24,"Bath Towel Set","Home Goods",39.99,300,4.4
+25,"Desk Lamp","Home Goods",32.00,150,4.5
+26,"Yoga Mat","Sports & Outdoors",29.99,200,4.7
+27,"Dumbbell Set","Sports & Outdoors",75.00,80,4.8
+28,"Camping Tent","Sports & Outdoors",130.00,50,4.6
+29,"Hiking Backpack","Sports & Outdoors",85.50,110,4.7
+30,"Soccer Ball","Sports & Outdoors",22.00,400,4.5
+31,"Board Game","Toys & Games",35.00,130,4.8
+32,"Action Figure","Toys & Games",15.99,250,4.4
+33,"Lego Set","Toys & Games",49.99,100,4.9
+34,"Electric Toothbrush","Health & Beauty",65.00,180,4.7
+35,"Shampoo","Health & Beauty",12.99,500,4.3
+36,"Sunscreen","Health & Beauty",14.50,300,4.6
+37,"Vitamin C Supplements","Health & Beauty",19.99,400,4.5
+38,"Car Wax","Automotive",21.50,150,4.4
+39,"Jumper Cables","Automotive",33.00,100,4.6
+40,"Digital Tire Pressure Gauge","Automotive",17.99,200,4.7
+41,"Garden Hose","Garden",28.00,120,4.2
+42,"Lawn Mower","Garden",250.00,30,4.6
+43,"Dog Food, 15lb bag","Pets",45.00,200,4.8
+44,"Cat Tree","Pets",90.00,70,4.7
+45,"Acoustic Guitar","Music",199.00,40,4.8
+46,"Keyboard Stand","Music",40.00,90,4.5
+47,"Office Chair","Furniture",180.00,60,4.6
+48,"Bookshelf","Furniture",120.00,50,4.5
+49,"Standing Desk","Furniture",350.00,25,4.7
+50,"Gourmet Coffee Beans","Groceries",18.50,300,4.9
