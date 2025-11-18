@@ -1,9 +1,11 @@
 # Deploy the agent using Agent Development Kit (ADK)
 
-1. Go to agent-adk-alloydb-nl2sql/source/agent
+1. Go to agent-adk-alloydb-nl2sql/source and create an agent folder
 
 ```
-cd agent-adk-alloydb-nl2sql/source/agent
+cd agent-adk-alloydb-nl2sql/source
+mkdir agent
+cd agent
 ```
 
 2. Install the SDK package for ToolBox
