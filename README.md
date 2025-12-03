@@ -50,7 +50,7 @@ Configure the Natural Language to SQL features and context within AlloyDB:
 
 ### Deploying MCP ToolBox
 
-Follow these instructions to run MCP Toolbox for Database in your Cloud Shell Terminal:
+Follow these instructions to run MCP Toolbox for Database to Cloud Run:
 
 [Deploy MCP Toolbox](docs/toolbox.md)
 
