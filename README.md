@@ -62,7 +62,7 @@ Follow these instructions to deploy the agent using ADK:
 
 ### Run your Agent
 
-You're ready to chat! Once deployed, start by asking questions around your E-commerce Data:
+You're ready to chat! Once deployed, start by asking questions around your E-commerce Data from the adk web interface launched in the previous step:
 
 - What is the current price of the 'Wireless Mouse'?
 
