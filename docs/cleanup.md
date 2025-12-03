@@ -29,6 +29,6 @@ gcloud compute addresses delete $RANGE_NAME \
 
 1. Delete MCP ToolBox Cloud Run service deployed:
 
-    ```bash
-    gcloud run services delete toolbox
-    ```
+```bash
+gcloud run services delete toolbox
+```
