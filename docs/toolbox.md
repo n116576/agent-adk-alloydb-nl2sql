@@ -21,6 +21,7 @@ gcloud services enable run.googleapis.com \
 3. Let's create a separate service account that will be acting as the identity for the Toolbox service that we will be deploying on Google Cloud Run. We are also ensuring that this service account has the correct roles i.e. ability to access Secret Manager and talk to AlloyDB.
 
 ```
+export PROJECT_ID=[YOUR_PROJECT_ID]
 gcloud iam service-accounts create toolbox-identity
 
 gcloud projects add-iam-policy-binding $PROJECT_ID \
@@ -79,7 +80,7 @@ gcloud run deploy toolbox \
 7. On successful deployment, you should see a message similar to the following:
 
 ```
-Deploying container to Cloud Run service [toolbox] in project [sports-store-agent-ai] region [us-central1]
+Deploying container to Cloud Run service [toolbox] in project [mtoscano-alloydbnl] region [us-central1]
 OK Deploying... Done.
   OK Creating Revision...
   OK Routing traffic...
