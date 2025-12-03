@@ -34,10 +34,16 @@ adk create ecommerce_agent
 cp agent-adk-alloydb-nl2sql/data/agent.py agent-adk-alloydb-nl2sql/source/agent/ecommerce_agent/agent.py
 ```
 
-6. Run your Agent with the web interface provided by ADK
+6. Update the MCP Toolbox Server URL deployed to Cloud Run in the previous step in the file agent.py:
+
+```
+toolbox = ToolboxSyncClient("https://toolbox-247111237694.us-central1.run.app")
+```
+
+7. Run your Agent with the web interface provided by ADK
 
 ```
 adk web --port 8000
 ```
 
-**Note:** You need to execute this command from agent-adk-alloydb-nl2sql/source/agent/ecommerce_agent
+**Note:** You need to execute this command from agent-adk-alloydb-nl2sql/source/agent
