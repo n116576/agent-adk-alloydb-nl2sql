@@ -24,3 +24,11 @@ gcloud alloydb clusters delete $CLUSTER \
 gcloud compute addresses delete $RANGE_NAME \
     --global
 ```
+
+## Deleting MCP ToolBox Cloud Run Service
+
+1. Delete MCP ToolBox Cloud Run service deployed:
+
+    ```bash
+    gcloud run services delete toolbox
+    ```
