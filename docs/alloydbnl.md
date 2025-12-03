@@ -11,11 +11,11 @@ export INSTANCE=myalloydbpri
 export REGION=us-central1
 ```
 
-Enable the flag alloydb_ai_nl.enabled for the AlloyDB Instance:
+Enable the flag alloydb_ai_nl.enabled and parameterized_views.enabled for the AlloyDB Instance:
 
 ```
 gcloud beta alloydb instances update $INSTANCE \
-   --database-flags alloydb_ai_nl.enabled=on,password.enforce_complexity=on \
+   --database-flags alloydb_ai_nl.enabled=on,parameterized_views.enabled=on,password.enforce_complexity=on \
    --region=$REGION \
    --cluster=$CLUSTER \
    --project=$PROJECT_ID \
