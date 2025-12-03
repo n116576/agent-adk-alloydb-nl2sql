@@ -1,9 +1,7 @@
 from google.adk.agents.llm_agent import Agent
 from toolbox_core import ToolboxSyncClient
 
-toolbox = ToolboxSyncClient("http://127.0.0.1:5000")
-
-# Load a specific set of tools
+toolbox = ToolboxSyncClient("https://toolbox-247111237694.us-central1.run.app")
 tools = toolbox.load_toolset('my-toolset')
 
 root_agent = Agent(
