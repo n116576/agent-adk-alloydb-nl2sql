@@ -195,7 +195,7 @@ password=myalloydbpass
 2. Load the data to AlloyDB
 ```
 cd agent-adk-alloydb-nl2sql/source/setup
-source load_db.sh
+source load_data.sh
 ```
 **Note**: Validate that AlloyDB Auth Proxy is running in a separate window
 
