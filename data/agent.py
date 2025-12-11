@@ -2,7 +2,7 @@ from google.adk.agents.llm_agent import Agent
 from toolbox_core import ToolboxSyncClient
 
 toolbox = ToolboxSyncClient("https://toolbox-247111237694.us-central1.run.app")
-tools = toolbox.load_toolset('my-toolset')
+tools = toolbox.load_toolset('my_first_toolset')
 
 root_agent = Agent(
     model='gemini-2.5-flash',
