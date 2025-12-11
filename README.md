@@ -33,7 +33,7 @@ All commands and setup steps are designed to be executed from the Google Cloud S
 
 First, launch a Cloud Shell Terminal session and clone the repository:
 ```
-git clone https://github.com/GoogleCloudPlatform/agent-adk-alloydb-nl2sql.git
+git clone https://github.com/n116576/agent-adk-alloydb-nl2sql.git
 ```
 
 ### Setting Up your Database
