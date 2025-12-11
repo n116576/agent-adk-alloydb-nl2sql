@@ -22,7 +22,7 @@ gcloud beta alloydb instances update $INSTANCE \
    --update-mode=FORCE_APPLY
 ```
 
-Install the alloydb_ai_nl extension, which is the AlloyDB AI natural language support API, run the following query:
+Install the alloydb_ai_nl extension, which is the AlloyDB AI natural language support API, run the following queries:
 
 ```
 psql -h 127.0.0.1 -U postgres -d nl2sqldb
@@ -30,6 +30,10 @@ psql -h 127.0.0.1 -U postgres -d nl2sqldb
 
 ```
 CREATE EXTENSION alloydb_ai_nl cascade;
+```
+
+```
+CREATE EXTENSION parameterized_views;
 ```
 
 ## Create a Natural Language configuration
